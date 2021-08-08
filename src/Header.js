@@ -2,7 +2,15 @@ import React, { useState } from 'react';
 import MainHeader from './MainHeader';
 import SubHeader from './SubHeader';
 
-export default function Header({ onChangeDifficulty }) {
+export default function Header({ 
+    currentDifficulty,
+    isListingUra,
+    currentLevel,
+    onChangeDifficulty, 
+    onCheckUra,
+    onChangeGenre,
+    onChangeLevel
+}) {
     const [isVisible, setVisible] = useState(false);
     const onClickMenu = () => {
         setVisible(!isVisible);
@@ -11,9 +19,15 @@ export default function Header({ onChangeDifficulty }) {
     return (
         <header className="bg-header">
             <MainHeader onClickMenu={onClickMenu}/>
-            <SubHeader 
+            <SubHeader
                 isVisible={isVisible}
+                currentDifficulty={currentDifficulty}
+                isListingUra={isListingUra}
+                currentLevel={currentLevel}
                 onChangeDifficulty={onChangeDifficulty}
+                onCheckUra={onCheckUra}
+                onChangeGenre={onChangeGenre}
+                onChangeLevel={onChangeLevel}
             />
         </header>
     )
