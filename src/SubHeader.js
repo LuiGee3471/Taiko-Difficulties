@@ -13,7 +13,7 @@ export default function SubHeader({
     onChangeGenre, 
     onChangeLevel,
 }) {
-    const className = "fixed flex flex-col justify-around bg-red-50 w-full px-4 transition-all duration-150 overflow-hidden " + (isVisible ? 'h-28' : 'h-0');
+    const className = "z-10 fixed flex flex-col justify-around bg-red-50 w-full px-4 transition-all duration-150 overflow-hidden " + (isVisible ? 'h-28' : 'h-0');
 
     return (
         <div className={className}>
