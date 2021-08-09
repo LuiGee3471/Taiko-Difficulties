@@ -7,7 +7,6 @@ const Genre = {
     GameMusic: '게임 뮤직',
     NamcoOriginal: '남코 오리지널',
     getGenre: function(value) {
-        console.log(this);
         return Object.keys(this).find((genre) => this[genre] === value) || null;
     }
 }
