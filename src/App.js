@@ -4,8 +4,9 @@ import Header from './Header';
 import { useState } from 'react';
 import Difficulty from './Difficulty';
 import Genre from './Genre';
+import songList from './songs';
 
-
+const allSongs = songList;
 
 function App() {
   const [currentDifficulty, setCurrentDifficulty] = useState(Difficulty.Oni);
