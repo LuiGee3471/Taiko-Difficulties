@@ -1,64 +1,86 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Difficulty from './Difficulty';
 import Genre from './Genre';
 import songList from './songs';
 import Main from './Main';
-
-const allSongs = songList;
+import Background from './Background';
 
 function App() {
-  const [currentDifficulty, setCurrentDifficulty] = useState(Difficulty.Oni);
-  const [isListingUra, setListingUra] = useState(true);
-  const [currentGenre, setCurrentGenre] = useState(null);
-  const [currentLevel, setCurrentLevel] = useState(10);
+  const filterSongs = ({ difficulty, ura, genre, level}) => {
+    return songList.filter((song) => {
+      console.log(song.title, song[difficulty] === level, genre);
+      return song[difficulty] === level && (genre === null || genre === song.genre);
+    });
+  }
+
+  const [currentFilter, setCurrentFilter] = useState({
+    difficulty: Difficulty.Oni,
+    ura: true,
+    genre: null,
+    level: 10
+  });
+
+  const [ songs, setSongs ] = useState(filterSongs(currentFilter));
+  useEffect(() => {
+    setSongs(filterSongs(currentFilter));
+  }, [currentFilter]);
 
   const onChangeDifficulty = (e) => {
     const value = e.target.value;
     let newDifficulty = null;
+    let currentLevel = 10;
     if (value === '귀신') {
       newDifficulty = Difficulty.Oni;
-      setCurrentLevel(10);
     } else {
       newDifficulty = Difficulty.Hard;
-      setCurrentLevel(8);
+      currentLevel = 8;
     }
-
-    if (currentDifficulty !== newDifficulty) {
-      setCurrentDifficulty(newDifficulty);
-    }
+    setCurrentFilter({
+      ...currentFilter,
+      difficulty: newDifficulty,
+      level: currentLevel
+    });
   }
 
   const onCheckUra = (e) => {
-    setListingUra(e.target.checked);
+    setCurrentFilter({
+      ...currentFilter,
+      ura: e.target.checked
+    });
   }
 
   const onChangeGenre = (e) => {
     const newGenre = Genre.getGenre(e.target.value);
-    setCurrentGenre(newGenre);
+    setCurrentFilter({
+      ...currentFilter,
+      genre: newGenre
+    });
   }
 
   const onChangeLevel = (e) => {
-    const newLevel = +e.target.value;
-    if (newLevel !== currentLevel) {
-      setCurrentLevel(newLevel);
-    }
+    setCurrentFilter({
+      ...currentFilter,
+      level: +e.target.value
+    });
   }
 
   return (
-    <>
+    <>      
       <Header
-        currentDifficulty={currentDifficulty}
-        isListingUra={isListingUra}
-        currentLevel={currentLevel}
+        currentDifficulty={currentFilter.difficulty}
+        isListingUra={currentFilter.ura}
+        currentLevel={currentFilter.level}
         onChangeDifficulty={onChangeDifficulty}
         onCheckUra={onCheckUra}
         onChangeGenre={onChangeGenre}
         onChangeLevel={onChangeLevel}
       />
-      <Main />
+      <Main
+        songs={songs}
+      />
     </>
   );
 }

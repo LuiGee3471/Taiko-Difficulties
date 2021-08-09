@@ -1,10 +1,14 @@
 import React from 'react';
+import Background from './Background';
 import SongList from './SongList';
 
-export default function Main() {
+export default function Main({ songs }) {
     return (
-        <main className="bg-body mt-12">
-            <SongList />
+        <main className="relative"> 
+            <Background />
+            <SongList 
+                songs={songs}
+            />
         </main>
     )
 }
