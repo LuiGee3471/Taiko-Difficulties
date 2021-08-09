@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Difficulty from './Difficulty';
 import Genre from './Genre';
 import songList from './songs';
+import Main from './Main';
 
 const allSongs = songList;
 
@@ -57,6 +58,7 @@ function App() {
         onChangeGenre={onChangeGenre}
         onChangeLevel={onChangeLevel}
       />
+      <Main />
     </>
   );
 }
