@@ -17,7 +17,7 @@ export default function Header({
     }
 
     return (
-        <header className="bg-header sticky">
+        <header className="bg-header fixed w-full z-50 top-0">
             <MainHeader onClickMenu={onClickMenu}/>
             <SubHeader
                 isVisible={isVisible}
