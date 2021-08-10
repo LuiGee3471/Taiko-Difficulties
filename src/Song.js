@@ -1,6 +1,11 @@
 import React from 'react';
 import Difficulty from './Difficulty';
 import Genre from './Genre';
+import EasyIcon from './icons/EasyIcon';
+import HardIcon from './icons/HardIcon';
+import NormalIcon from './icons/NormalIcon';
+import OniIcon from './icons/OniIcon';
+import UraIcon from './icons/UraIcon';
 
 export default function Song({ song, onClickSong }) {
     let genreBackground = 'bg-';
@@ -30,7 +35,7 @@ export default function Song({ song, onClickSong }) {
             break;
     }
 
-    let className = 'z-10 w-9/12 mt-5 bg-song flex flex-col items-center justify-center rounded-md';
+    let className = 'z-10 w-9/12 mt-5 bg-song flex flex-col items-center justify-center rounded-md overflow-hidden';
     className += ' ' + genreBackground;
     className += ' ' + ((song.collapse) ? 'h-10' : 'h-24');
 
@@ -45,25 +50,25 @@ export default function Song({ song, onClickSong }) {
                 <div className="w-full mt-2">
                     <ul className="flex justify-around">
                         <li className={classNameOfDifficulty}>
-                            <img className={classNameOfImg} src="/images/ico-easy.png" alt="쉬움" />
+                            <EasyIcon />
                             {song[Difficulty.Easy]}
                         </li>
                         <li className={classNameOfDifficulty}>
-                            <img className={classNameOfImg} src="/images/ico-normal.png" alt="보통" />
+                            <NormalIcon />
                             {song[Difficulty.Normal]}
                         </li>
                         <li className={classNameOfDifficulty}>
-                            <img className={classNameOfImg} src="/images/ico-hard.png" alt="어려움" />
+                            <HardIcon />
                             {song[Difficulty.Hard]}
                         </li>
                         <li className={classNameOfDifficulty}>
-                            <img className={classNameOfImg} src="/images/ico-oni.png" alt="귀신" />
+                            <OniIcon />
                             {song[Difficulty.Oni]}
                         </li>
                         {
                             song[Difficulty.Ura] ?
                                 <li className={classNameOfDifficulty}>
-                                    <img className={classNameOfImg} src="/images/ico-ura.png" alt="뒷면" />
+                                    <UraIcon />
                                     {song[Difficulty.Ura]}
                                 </li>
                                 : null
