@@ -10,8 +10,7 @@ import Background from './Background';
 
 function App() {
   const filterSongs = ({ difficulty, ura, genre, level}) => {
-    return songList.map((song) => ({...song, collapse: true}))
-    .filter((song) => {
+    return songList.filter((song) => {
       return song[difficulty] === level && (genre === null || genre === song.genre);
     }).sort((song1, song2) => {
       const order = difficulty === Difficulty.Oni ? 'order_oni' : 'order_hard';
@@ -70,17 +69,6 @@ function App() {
     });
   }
 
-  const onClickSong = (id) => {
-    const newSongs = songs.map((song) => {
-      if (song.id === id) {
-        return {...song, collapse: !song.collapse};
-      } else {
-        return song;
-      }
-    });
-    setSongs(newSongs);
-  }
-
   return (
     <>      
       <Header
@@ -94,7 +82,6 @@ function App() {
       />
       <Main
         songs={songs}
-        onClickSong={onClickSong}
         currentDifficulty={currentFilter.difficulty}
       />
     </>
