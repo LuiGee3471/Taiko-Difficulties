@@ -1,13 +1,14 @@
 import React from 'react';
 import Difficulty from './Difficulty';
 import Genre from './Genre';
+import SongTip from './SongTip';
 import EasyIcon from './icons/EasyIcon';
 import HardIcon from './icons/HardIcon';
 import NormalIcon from './icons/NormalIcon';
 import OniIcon from './icons/OniIcon';
 import UraIcon from './icons/UraIcon';
 
-export default function Song({ song, onClickSong }) {
+export default function Song({ song, onClickSong, currentDifficulty }) {
     let genreBackground = 'bg-';
     switch (song.genre) {
         case Genre.Pop:
@@ -43,8 +44,14 @@ export default function Song({ song, onClickSong }) {
 
     const classNameOfImg = "w-5 h-5";
 
+    
+    const tips = (currentDifficulty === Difficulty.Oni) ? song.tipsOni : song.tipsHard;
+    const hasTips = Boolean(tips);
+    console.log(tips);
+
     return (
         <li className={className} onClick={() => onClickSong(song.id)}>
+            { !song.collapse && hasTips ? <SongTip tips={tips} /> : null}            
             <span className="px-4 text-black font-bold align-middle text-center">{song.title}</span>
             {!song.collapse ?
                 <div className="w-full mt-2">

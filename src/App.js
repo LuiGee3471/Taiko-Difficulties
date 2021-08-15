@@ -95,6 +95,7 @@ function App() {
       <Main
         songs={songs}
         onClickSong={onClickSong}
+        currentDifficulty={currentFilter.difficulty}
       />
     </>
   );
