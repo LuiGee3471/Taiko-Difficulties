@@ -36,7 +36,7 @@ export default function Song({ song, onClickSong, currentDifficulty }) {
             break;
     }
 
-    let className = 'z-10 w-9/12 mt-5 bg-song flex flex-col items-center justify-center rounded-md overflow-hidden';
+    let className = 'relative z-10 w-9/12 mt-5 bg-song flex flex-col items-center justify-center rounded-md overflow-hidden';
     className += ' ' + genreBackground;
     className += ' ' + ((song.collapse) ? 'h-10' : 'h-24');
 
