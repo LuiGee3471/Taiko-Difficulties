@@ -11,7 +11,12 @@ const songList = [
         [Difficulty.Oni]: 10,
         genre: Genre.NamcoOriginal,
         order_hard: 1,
-        order_oni: 0
+        order_oni: 0,
+        tipsHard: {
+            difference: true,
+            firstPlay: true,
+            fullCombo: true
+        }
     },
     {
         id: 2,
