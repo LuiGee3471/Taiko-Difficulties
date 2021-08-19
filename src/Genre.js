@@ -5,10 +5,7 @@ const Genre = {
     Vocaloid: '보컬로이드',
     Classical: '클래식',
     GameMusic: '게임 뮤직',
-    NamcoOriginal: '남코 오리지널',
-    getGenre: function(value) {
-        return Object.keys(this).find((genre) => this[genre] === value) || null;
-    }
+    NamcoOriginal: '남코 오리지널'
 }
 
 export default Genre;

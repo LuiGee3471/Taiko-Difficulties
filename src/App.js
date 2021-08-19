@@ -55,7 +55,7 @@ function App() {
   }
 
   const onChangeGenre = (e) => {
-    const newGenre = Genre.getGenre(e.target.value);
+    const newGenre = e.target.value;
     setCurrentFilter({
       ...currentFilter,
       genre: newGenre
