@@ -4729,7 +4729,7 @@ const songList = [
         [Difficulty.Easy]: 1,
         [Difficulty.Normal]: 1,
         [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 5,
+        [Difficulty.Oni]: 6,
         genre: Genre.Pop,
         order_hard: -1,
         order_oni: 64
