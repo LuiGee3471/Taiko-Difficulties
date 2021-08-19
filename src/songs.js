@@ -4200,8 +4200,8 @@ const songList = [
         [Difficulty.Ura]: 6,
         genre: Genre.GameMusic,
         order_hard: -1,
-        order_oni: 0,
-        order_ura: 16,
+        order_oni: 16,
+        ura: true
     },
     {
         id: 357,
