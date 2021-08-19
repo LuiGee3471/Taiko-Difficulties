@@ -14,7 +14,7 @@ module.exports = {
         'anime': '#ffa2d9',
         'vocaloid': '#d4d6e4',
         'game-music': '#d6a1ee',
-        'variety': '#d6a1ee',
+        'variety': '#66d592',
         'classical': '#d2c929',
         'original': '#fe874a'
       })
