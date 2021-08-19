@@ -9,10 +9,15 @@ import Main from './Main';
 import Background from './Background';
 
 function App() {
-  const filterSongs = ({ difficulty, ura, genre, level}) => {
+  const filterSongs = ({ difficulty, ura, genre, level }) => {
     return songList.filter((song) => {
-      return song[difficulty] === level && (genre === null || genre === song.genre);
-    }).sort((song1, song2) => {
+      const uraLevel = song[Difficulty.Ura];
+      return song[difficulty] === level || (ura && uraLevel === level);
+    })
+    .filter((song) => {
+      return genre === null || genre === song.genre;
+    })
+    .sort((song1, song2) => {
       const order = difficulty === Difficulty.Oni ? 'order_oni' : 'order_hard';
       return song1[order] - song2[order];
     });
