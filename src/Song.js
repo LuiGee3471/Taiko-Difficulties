@@ -10,6 +10,9 @@ import UraIcon from './icons/UraIcon';
 
 export default function Song({ song, currentDifficulty }) {
     const [collapse, setCollapse] = useState(true);
+    const onClickSong = () => {
+        setCollapse(!collapse);
+    }
 
     let genreBackground = 'bg-';
     switch (song.genre) {
@@ -47,14 +50,17 @@ export default function Song({ song, currentDifficulty }) {
     const tips = (currentDifficulty === Difficulty.Oni) ? song.tipsOni : song.tipsHard;
     const hasTips = Boolean(tips);
 
-    const onClickSong = () => {
-        setCollapse(!collapse);
+    let songTitleClassName = "px-4 font-bold align-middle text-center ";
+    if (song.ura) {
+        songTitleClassName += "text-purple-800";
+    } else {
+        songTitleClassName += "text-black";
     }
 
     return (
         <li className={className} onClick={onClickSong}>
             { !collapse && hasTips ? <SongTip tips={tips} /> : null}            
-            <span className="px-4 text-black font-bold align-middle text-center">{song.title}</span>
+            <span className={songTitleClassName}>{song.title}</span>
             {!collapse ?
                 <div className="w-full mt-2">
                     <ul className="flex justify-around">
