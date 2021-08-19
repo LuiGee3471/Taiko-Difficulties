@@ -45,7 +45,7 @@ export default function Song({ song, currentDifficulty }) {
     className += ' ' + genreBackground;
     className += ' ' + ((collapse) ? 'h-10' : 'h-24');
 
-    const classNameOfDifficulty = "bg-gray-50 px-3 py-1 rounded-sm flex flex-col items-center"
+    const classNameOfDifficulty = "bg-gray-50 w-10 py-1 rounded-sm flex flex-col items-center"
 
     const tips = (currentDifficulty === Difficulty.Oni) ? song.tipsOni : song.tipsHard;
     const hasTips = Boolean(tips);
