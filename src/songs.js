@@ -99,7 +99,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 8,
-        order_oni: 0,
+        order_oni: 32,
         tipsHard: {
             difference: true,
             fullCombo: true
@@ -145,7 +145,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.NamcoOriginal,
         order_hard: 11,
-        order_oni: 0,
+        order_oni: 5,
         tipsHard: {
             firstPlay: true
         }
@@ -197,7 +197,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.NamcoOriginal,
         order_hard: 15,
-        order_oni: 0
+        order_oni: 53
     },
     {
         id: 16,
@@ -275,7 +275,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 21,
-        order_oni: 0
+        order_oni: 11
     },
     {
         id: 22,
@@ -349,7 +349,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.Pop,
         order_hard: 27,
-        order_oni: 0,
+        order_oni: 8,
         tipsHard: {
             fullCombo: true
         }
@@ -390,7 +390,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.GameMusic,
         order_hard: 30,
-        order_oni: 0,
+        order_oni: 7,
     },
     {
         id: 31,
@@ -401,7 +401,7 @@ const songList = [
         [Difficulty.Oni]: 7,
         genre: Genre.Vocaloid,
         order_hard: 31,
-        order_oni: 0
+        order_oni: 6
     },
     {
         id: 32,
@@ -412,7 +412,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 32,
-        order_oni: 0,
+        order_oni: 30,
         tipsHard: {
             difference: true,
         }
@@ -724,7 +724,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.GameMusic,
         order_hard: 58,
-        order_oni: 0
+        order_oni: 27
     },
     {
         id: 59,
@@ -849,7 +849,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.NamcoOriginal,
         order_hard: 68,
-        order_oni: 0
+        order_oni: 4
     },
     {
         id: 69,
@@ -883,7 +883,7 @@ const songList = [
         [Difficulty.Ura]: 9,
         genre: Genre.NamcoOriginal,
         order_hard: 71,
-        order_oni: 0
+        order_oni: 11
     },
     {
         id: 72,
@@ -956,7 +956,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 77,
-        order_oni: 0
+        order_oni: 12
     },
     {
         id: 78,
@@ -1036,7 +1036,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.GameMusic,
         order_hard: 84,
-        order_oni: 0,
+        order_oni: 5,
         tipsHard: {
             difference: true,
         }
@@ -1169,7 +1169,7 @@ const songList = [
         [Difficulty.Oni]: 7,
         genre: Genre.NamcoOriginal,
         order_hard: 95,
-        order_oni: 0
+        order_oni: 59
     },
     {
         id: 96,
@@ -1354,7 +1354,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.Vocaloid,
         order_hard: 111,
-        order_oni: 0
+        order_oni: 15
     },
     {
         id: 112,
@@ -1365,7 +1365,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 112,
-        order_oni: 0,
+        order_oni: 2,
         tipsHard: {
             fullCombo: true
         }
@@ -1403,7 +1403,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 115,
-        order_oni: 0,
+        order_oni: 34,
         tipsHard: {
             fullCombo: true
         }
@@ -1487,7 +1487,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.GameMusic,
         order_hard: 122,
-        order_oni: 0
+        order_oni: 36
     },
     {
         id: 123,
@@ -1607,7 +1607,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 132,
-        order_oni: 0
+        order_oni: 19
     },
     {
         id: 133,
@@ -1644,7 +1644,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.Pop,
         order_hard: 135,
-        order_oni: 0
+        order_oni: 126
     },
     {
         id: 136,
@@ -1706,7 +1706,7 @@ const songList = [
         [Difficulty.Oni]: 7,
         genre: Genre.NamcoOriginal,
         order_hard: 140,
-        order_oni: 0
+        order_oni: 29
     },
     {
         id: 141,
@@ -1902,7 +1902,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 156,
-        order_oni: 0
+        order_oni: 14
     },
     {
         id: 157,
@@ -1987,7 +1987,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 163,
-        order_oni: 0
+        order_oni: 21
     },
     {
         id: 164,
@@ -2054,7 +2054,7 @@ const songList = [
         [Difficulty.Oni]: 7,
         genre: Genre.NamcoOriginal,
         order_hard: 169,
-        order_oni: 0
+        order_oni: 2
     },
     {
         id: 170,
@@ -2100,7 +2100,7 @@ const songList = [
         [Difficulty.Ura]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 173,
-        order_oni: 0
+        order_oni: 65
     },
     {
         id: 174,
@@ -2134,7 +2134,7 @@ const songList = [
         [Difficulty.Oni]: 7,
         genre: Genre.GameMusic,
         order_hard: 176,
-        order_oni: 0
+        order_oni: 13
     },
     {
         id: 177,
@@ -2160,7 +2160,7 @@ const songList = [
         [Difficulty.Oni]: 7,
         genre: Genre.Classical,
         order_hard: 178,
-        order_oni: 0
+        order_oni: 63
     },
     {
         id: 179,
@@ -2281,7 +2281,7 @@ const songList = [
         [Difficulty.Oni]: 7,
         genre: Genre.GameMusic,
         order_hard: 188,
-        order_oni: 0
+        order_oni: 42
     },
     {
         id: 189,
@@ -3095,7 +3095,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 58,
-        order_oni: 0
+        order_oni: 26
     },
     {
         id: 258,
@@ -3665,7 +3665,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 109,
-        order_oni: 0
+        order_oni: 13,
     },
     {
         id: 309,
@@ -3731,7 +3731,7 @@ const songList = [
         [Difficulty.Oni]: 7,
         genre: Genre.GameMusic,
         order_hard: 115,
-        order_oni: 0
+        order_oni: 94
     },
     {
         id: 315,
@@ -3920,7 +3920,7 @@ const songList = [
         [Difficulty.Ura]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 132,
-        order_oni: 0
+        order_oni: 15
     },
     {
         id: 332,
@@ -3987,7 +3987,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 138,
-        order_oni: 0
+        order_oni: 7
     },
     {
         id: 338,
@@ -5040,472 +5040,1555 @@ const songList = [
         order_oni: 10
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 431,
+        title: "想いを手に願いを込めて",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 1
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 432,
+        title: "dance storm",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 3
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 433,
+        title: "ともに",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 4
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 434,
+        title: "オフ♨ロック",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]:　6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 8
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 435,
+        title: "Fly away",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 9
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
+        id: 436,
+        title: "ミッション！ 健・康・第・イチ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
         genre: Genre.Anime,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 10
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 437,
+        title: "二人の結晶-INNOCENCE-",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 7,
+        genre: Genre.Variety,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 12,
+        ura: true
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 438,
+        title: "ロキ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 14
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 439,
+        title: "あんずのうた (달인)",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 16
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 440,
+        title: "あんずのうた (현인)",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 17
     },
     {
-        id: 392,
-        title: "紅蓮華",
+        id: 441,
+        title: "ようこそジャパリパークへ",
         [Difficulty.Easy]: 2,
         [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
         genre: Genre.Anime,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 18
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 442,
+        title: "誘惑",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 19
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 443,
+        title: "駄々っ子モンスター",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 20
     },
     {
-        id: 392,
-        title: "紅蓮華",
+        id: 444,
+        title: "ナンセンス文学",
         [Difficulty.Easy]: 2,
         [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 21
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 445,
+        title: "自分REST@RT",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.GameMusic,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 22
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
+        id: 446,
+        title: "蓄勢～GEAR UP～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
         [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 23
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 447,
+        title: "ピースサイン",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 24
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 448,
+        title: "GO MY WAY!!",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 25
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 449,
+        title: "Phoenix",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 26
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 450,
+        title: "希望へのメロディー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 27
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
+        id: 452,
+        title: "騎士竜戦隊リュウソウジャー",
+        [Difficulty.Easy]: 1,
         [Difficulty.Normal]: 2,
         [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
+        [Difficulty.Oni]: 7,
         genre: Genre.Anime,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 30
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 453,
+        title: "白猫きゃらめる夢幻のわたあめ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 31
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 454,
+        title: "サンバ アレグリーア",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 32
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 455,
+        title: "伝説の祭り",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 33
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 456,
+        title: "交響曲第7番から",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Classical,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 34
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 457,
+        title: "忍者は最高",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 35
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
+        id: 458,
+        title: "残酷な天使のテーゼ",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
         [Difficulty.Ura]: 8,
         genre: Genre.Anime,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 37
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
+        id: 459,
+        title: "ユウガオノキミ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
         genre: Genre.Anime,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 38
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 460,
+        title: "クリスマスソング",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 39
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 461,
+        title: "恋はみずいろ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 40
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 462,
+        title: "テルミン狂想曲　第42楽章「悲愴」",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 41
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 463,
+        title: "ラーメン de Yo-Men!!",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 43
     },
     {
-        id: 392,
-        title: "紅蓮華",
+        id: 464,
+        title: "ペンパイナッポーアッポーペン(PPAP)",
         [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Variety,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 44
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 465,
+        title: "ひまわりの約束",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 45
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 466,
+        title: "命短し恋せよ乙女",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 47
     },
     {
-        id: 392,
-        title: "紅蓮華",
+        id: 467,
+        title: "アローラ!!",
         [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
         genre: Genre.Anime,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 48
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
-        genre: Genre.Anime,
+        id: 468,
+        title: "Mulberry",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 49
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
-        [Difficulty.Ura]: 8,
+        id: 469,
+        title: "only my railgun",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
         genre: Genre.Anime,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 50
     },
     {
-        id: 392,
-        title: "紅蓮華",
-        [Difficulty.Easy]: 2,
-        [Difficulty.Normal]: 2,
-        [Difficulty.Hard]: 3,
-        [Difficulty.Oni]: 6,
+        id: 470,
+        title: "ヘイ，ミスタープロフェッサー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 51
+    },
+    {
+        id: 471,
+        title: "GEEDの証",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 52
+    },
+    {
+        id: 472,
+        title: "Over “Quartzer”",
+        [Difficulty.Easy]: 1,
+        [Difficulty.Normal]: 1,
+        [Difficulty.Hard]: 2,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 54
+    },
+    {
+        id: 473,
+        title: "千本桜",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
         [Difficulty.Ura]: 8,
         genre: Genre.Anime,
         order_hard: -1,
-        order_oni: 53
+        order_oni: 55
+    },
+    {
+        id: 474,
+        title: "花漾～Flourishing Blossoms～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 56
+    },
+    {
+        id: 475,
+        title: "春遊～happy excursion～",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 57
+    },
+    {
+        id: 476,
+        title: "らいとにんぐ ぱっしょん",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.ura]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 58
+    },
+    {
+        id: 477,
+        title: "Angelic Angel",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 60
+    },
+    {
+        id: 478,
+        title: "ドキドキ恋の予感！？",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 61
+    },
+    {
+        id: 479,
+        title: "ラッスンゴレライ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 62
+    },
+    {
+        id: 480,
+        title: "蝶戀～Obsession～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 64
+    },
+    {
+        id: 481,
+        title: "White Rose Insanity",
+        [Difficulty.Easy]: 5,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 66
+    },
+    {
+        id: 482,
+        title: "零 -ZERO-",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 67
+    },
+    {
+        id: 483,
+        title: "カルメン 組曲一番終曲",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Classical,
+        order_hard: -1,
+        order_oni: 68
+    },
+
+    {
+        id: 484,
+        title: "恋の処方箋",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 69
+    },
+    {
+        id: 485,
+        title: "ワンダーモモーイ",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 70
+    },
+    {
+        id: 486,
+        title: "YouTubeテーマソング",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 71
+    },
+    {
+        id: 487,
+        title: "Hello, Morning",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 72
+    },
+    {
+        id: 488,
+        title: "未来への鍵",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 73
+    },
+    {
+        id: 489,
+        title: "風雲！バチお先生",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 74
+    },
+    {
+        id: 490,
+        title: "shiny smile",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 75
+    },
+    {
+        id: 491,
+        title: "DRIVE A LIVE",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 76
+    },
+    {
+        id: 492,
+        title: "オールナイトdeインデナイ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 77
+    },
+    {
+        id: 493,
+        title: "黒神クロニクル",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 78
+    },
+    {
+        id: 494,
+        title: "DREAMERS' PARADISE",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 79
+    },
+    {
+        id: 495,
+        title: "God knows...",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 80
+    },
+    {
+        id: 496,
+        title: "NO DOUBT",
+        [Difficulty.Easy]: 1,
+        [Difficulty.Normal]: 2,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 81
+    },
+    {
+        id: 497,
+        title: "チェインクロニクル 総力戦メドレー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 82
+    },
+    {
+        id: 498,
+        title: "アルカリレットウセイ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 84
+    },
+    {
+        id: 499,
+        title: "3Q-4U-AC00",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 85
+    },
+    {
+        id: 500,
+        title: "ソウルキャリバーII",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 86
+    },
+    {
+        id: 501,
+        title: "ダン・ダン ドゥビ・ズバー！",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 88
+    },
+    {
+        id: 502,
+        title: "Walking Through The Towers",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 89
+    },
+    {
+        id: 503,
+        title: "Holding Hands",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 90
+    },
+    {
+        id: 504,
+        title: "君の知らない物語",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 91
+    },
+    {
+        id: 505,
+        title: "EXCITE",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 92
+    },
+    {
+        id: 506,
+        title: "無慈悲な王",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 93
+    },
+    {
+        id: 507,
+        title: "+♂(プラス男子)",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 95
+    },
+    {
+        id: 508,
+        title: "アンビバレント",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 2,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 96
+    },
+    {
+        id: 509,
+        title: "それは僕たちの奇跡",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 97
+    },
+    {
+        id: 510,
+        title: "カゲロウデイズ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 98
+    },
+    {
+        id: 511,
+        title: "Highschool love!",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 99
+    },
+
+    {
+        id: 512,
+        title: "うさぎのしっぽ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 100
+    },
+    {
+        id: 513,
+        title: "未来コネクション",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 101
+    },
+    {
+        id: 514,
+        title: "おさかな毎日！さかなクン",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 102
+    },
+    {
+        id: 515,
+        title: "AIAIAI (feat. 中田ヤスタカ)",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 103
+    },
+    {
+        id: 516,
+        title: "人のお金で焼肉を食したい！",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 10,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 104
+    },
+    {
+        id: 517,
+        title: "世界はいつでもミステリー",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 105
+    },
+    {
+        id: 518,
+        title: "ウルトラマンX",
+        [Difficulty.Easy]: 1,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 10,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 106
+    },
+    {
+        id: 519,
+        title: "シンクロニシティ",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 107
+    },
+    {
+        id: 520,
+        title: "綻放～Blooming～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 108
+    },
+    {
+        id: 521,
+        title: "僕らの世界にダンスを",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 109
+    },
+    {
+        id: 522,
+        title: "Hope",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 110
+    },
+    {
+        id: 523,
+        title: "ようかい体操第一",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 111
+    },
+    {
+        id: 524,
+        title: "Yes we are",
+        [Difficulty.Easy]: 1,
+        [Difficulty.Normal]: 1,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 112
+    },
+    {
+        id: 525,
+        title: "ねぇ教えて",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 113
+    },
+    {
+        id: 526,
+        title: "スポーツダイジェスドン",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 114
+    },
+    {
+        id: 527,
+        title: "シャイニング65",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 115
+    },
+    {
+        id: 528,
+        title: "創聖のアクエリオン",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 116
+    },
+    {
+        id: 529,
+        title: "ゲラゲラポーのうた",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 117
+    },
+    {
+        id: 530,
+        title: "Grip & Break down !!",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 118
+    },
+    {
+        id: 531,
+        title: "ウィリアム・テル序曲",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 7,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Classical,
+        order_hard: Infinity,
+        order_oni: 119
+    },
+    {
+        id: 532,
+        title: "JOIN US",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 120
+    },
+    {
+        id: 533,
+        title: "願いはエスペラント",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 121
+    },
+    {
+        id: 534,
+        title: "七彩ボタン",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 122
+    },
+    {
+        id: 535,
+        title: "フリフリ♪ノリノリ♪",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 123
+    },
+    {
+        id: 536,
+        title: "祭り囃子でゲラゲラポー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 124
+    },
+    {
+        id: 537,
+        title: "STAY TUNE",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 125
+    },
+    {
+        id: 538,
+        title: "季曲～Seasons of Asia～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 127
+    },
+    {
+        id: 539,
+        title: "蛻変～transformation～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 128
+    },
+    {
+        id: 540,
+        title: "ごめんなさいのKissing You",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 129
+    },
+    {
+        id: 541,
+        title: "祭り囃子でゲラゲラポー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 124
+    },
+    {
+        id: 542,
+        title: "魔法をかけて！",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 6,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 125
+    },
+    {
+        id: 543,
+        title: "カンタービレ×パッシオーネ",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 9,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 126
+    },
+    {
+        id: 544,
+        title: "恋音と雨空",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 127
+    },
+    {
+        id: 545,
+        title: "太鼓のマーチ",
+        [Difficulty.Easy]: 5,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 128
+    },
+    {
+        id: 546,
+        title: "初恋峠でゲラゲラポー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 129
+    },
+    {
+        id: 547,
+        title: "GLORIOUS RO@D",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 130
+    },
+    {
+        id: 548,
+        title: "Hero",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 131
+    },
+    {
+        id: 549,
+        title: "Lemon",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 132
+    },
+    {
+        id: 550,
+        title: "MOIL",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 2,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 7,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 133
+    },
+    {
+        id: 551,
+        title: "指先からはじまる物語",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 1
+    },
+    {
+        id: 552,
+        title: "Hello, Morning",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 3,
+        ura: true
+    },
+    {
+        id: 553,
+        title: "どん子のファーストデート",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 4,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 6,
+        ura: true,
+    },
+    {
+        id: 554,
+        title: "天ノ弱",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 9
+    },
+    {
+        id: 555,
+        title: "華蕾夢ミル狂詩曲～魂ノ導～",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 9,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 10
+    },
+    {
+        id: 556,
+        title: "カゲロウデイズ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 16,
+        ura: true
+    },
+    {
+        id: 557,
+        title: "東京テディベア",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 17
+    },
+    {
+        id: 558,
+        title: "東京特許キョ許可局局長!!",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 18
+    },
+    {
+        id: 559,
+        title: "オレサマパイレーツ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 20
+    },
+    {
+        id: 560,
+        title: "星屑とリニアと僕",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 22
+    },
+    {
+        id: 561,
+        title: "蝶戀～Obsession～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 23,
+        ura: true
+    },
+    {
+        id: 562,
+        title: "サタデー太鼓フィーバー",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 8,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: 132,
+        order_oni: 24,
+        ura: true
+    },
+    {
+        id: 563,
+        title: "EAT'EM UP!",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 25
+    },
+    {
+        id: 564,
+        title: "撥条少女時計",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 27
+    },
+    {
+        id: 565,
+        title: "クルクルクロックル",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 29
+    },
+    {
+        id: 566,
+        title: "URBAN FRAGMENTS",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 31
+    },
+    {
+        id: 567,
+        title: "グレート！アニマルカイザー!!",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 33
+    },
+    {
+        id: 568,
+        title: "らんぶる乱舞",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 7,
+        [Difficulty.Hard]: 8,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 35
     },
 ];
 
