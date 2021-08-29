@@ -11,7 +11,12 @@ import Background from './Background';
 function App() {
   const filterSongs = ({ difficulty, ura, genre, level }) => {
     return songList.filter((song) => {
-      return (!song.ura && song[difficulty] === level) || (ura && song.ura && song[Difficulty.Ura] === level);
+      if (difficulty === Difficulty.Oni) {
+        return (!song.ura && song[difficulty] === level) 
+        || (ura && song.ura && song[Difficulty.Ura] === level);
+      } else {
+        return level === song[Difficulty.Hard] && song['order_hard'] !== -1;
+      }
     })
     .filter((song) => {
       return genre === "All" || genre === song.genre;

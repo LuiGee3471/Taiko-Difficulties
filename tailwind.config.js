@@ -11,7 +11,7 @@ module.exports = {
       backgroundColor: theme => ({
         ...theme,
         'pop': '#60cad9',
-        'anime': '#ffa2d9',
+        'anime': '#ffca28',
         'vocaloid': '#d4d6e4',
         'game-music': '#d6a1ee',
         'variety': '#66d592',
