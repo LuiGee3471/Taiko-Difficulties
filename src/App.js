@@ -11,8 +11,7 @@ import Background from './Background';
 function App() {
   const filterSongs = ({ difficulty, ura, genre, level }) => {
     return songList.filter((song) => {
-      const uraLevel = song[Difficulty.Ura];
-      return song[difficulty] === level || (ura && uraLevel === level);
+      return (!song.ura && song[difficulty] === level) || (ura && song.ura && song[Difficulty.Ura] === level);
     })
     .filter((song) => {
       return genre === "All" || genre === song.genre;
