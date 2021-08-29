@@ -14,28 +14,28 @@ export default function Song({ song, currentDifficulty }) {
         setCollapse(!collapse);
     }
 
-    let genreBackground = 'bg-';
+    let genreBackground;
     switch (song.genre) {
         case Genre.Pop:
-            genreBackground += 'pop'
+            genreBackground = 'bg-pop'
             break;
         case Genre.Anime:
-            genreBackground += 'anime';
+            genreBackground = 'bg-anime';
             break;
         case Genre.Classical:
-            genreBackground += 'classical'
+            genreBackground = 'bg-classical'
             break;
         case Genre.GameMusic:
-            genreBackground += 'game-music';
+            genreBackground = 'bg-game-music';
             break;
         case Genre.NamcoOriginal:
-            genreBackground += 'original';
+            genreBackground = 'bg-original';
             break;
         case Genre.Variety:
-            genreBackground += 'variety'
+            genreBackground = 'bg-variety'
             break;
         case Genre.Vocaloid:
-            genreBackground += 'vocaloid';
+            genreBackground = 'bg-vocaloid';
             break;
         default:
             break;
