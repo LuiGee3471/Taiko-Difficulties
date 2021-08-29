@@ -5449,7 +5449,7 @@ const songList = [
         [Difficulty.Normal]: 6,
         [Difficulty.Hard]: 6,
         [Difficulty.Oni]: 7,
-        genre: Genre.Pop,
+        genre: Genre.NamcoOriginal,
         order_hard: -1,
         order_oni: 49
     },
