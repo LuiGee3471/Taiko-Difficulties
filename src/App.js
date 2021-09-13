@@ -15,7 +15,7 @@ function App() {
         return (!song.ura && song[difficulty] === level) 
         || (ura && song.ura && song[Difficulty.Ura] === level);
       } else {
-        return level === song[Difficulty.Hard] && song['order_hard'] !== -1;
+        return level === song[Difficulty.Hard] && song['order_hard'] > 0;
       }
     })
     .filter((song) => {
