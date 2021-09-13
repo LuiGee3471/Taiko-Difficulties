@@ -399,7 +399,7 @@ const songList = [
         [Difficulty.Normal]: 5,
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 7,
-        genre: Genre.Vocaloid,
+        genre: Genre.GameMusic,
         order_hard: 31,
         order_oni: 6
     },
@@ -503,7 +503,7 @@ const songList = [
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 10,
         genre: Genre.Vocaloid,
-        order_hard: 29,
+        order_hard: 39,
         order_oni: 0
     },
     {
@@ -734,7 +734,7 @@ const songList = [
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 8,
         [Difficulty.Ura]: 9,
-        genre: Genre.NamcoOriginal,
+        genre: Genre.GameMusic,
         order_hard: 59,
         order_oni: 152
     },
@@ -836,7 +836,7 @@ const songList = [
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 9,
         genre: Genre.GameMusic,
-        order_hard: 45,
+        order_hard: 67,
         order_oni: 0
     },
     {
@@ -930,7 +930,7 @@ const songList = [
         [Difficulty.Hard]: 8,
         [Difficulty.Oni]: 8,
         genre: Genre.Classical,
-        order_hard: 75,
+        order_hard: 121,
         order_oni: 74,
         tipsHard: {
             difference: true,
@@ -1314,7 +1314,7 @@ const songList = [
         [Difficulty.Normal]: 6,
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 9,
-        genre: Genre.NamcoOriginal,
+        genre: Genre.GameMusic,
         order_hard: 108,
         order_oni: 0
     },
@@ -1437,7 +1437,7 @@ const songList = [
         [Difficulty.Normal]: 6,
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 10,
-        genre: Genre.NamcoOriginal,
+        genre: Genre.Variety,
         order_hard: 118,
         order_oni: 0
     },
@@ -1669,7 +1669,7 @@ const songList = [
         [Difficulty.Oni]: 9,
         [Difficulty.Ura]: 10,
         genre: Genre.NamcoOriginal,
-        order_hard: 88,
+        order_hard: 137,
         order_oni: 6
     },
     {
@@ -1715,7 +1715,7 @@ const songList = [
         [Difficulty.Normal]: 5,
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 8,
-        genre: Genre.NamcoOriginal,
+        genre: Genre.GameMusic,
         order_hard: 141,
         order_oni: 66
     },
@@ -1813,7 +1813,7 @@ const songList = [
         [Difficulty.Normal]: 6,
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 10,
-        genre: Genre.NamcoOriginal,
+        genre: Genre.GameMusic,
         order_hard: 149,
         order_oni: 0
     },
@@ -1864,7 +1864,7 @@ const songList = [
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 8,
         [Difficulty.Ura]: 9,
-        genre: Genre.NamcoOriginal,
+        genre: Genre.GameMusic,
         order_hard: 153,
         order_oni: 151,
     },
@@ -2121,8 +2121,8 @@ const songList = [
         [Difficulty.Normal]: 6,
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 9,
-        genre: Genre.NamcoOriginal,
-        order_hard: 159,
+        genre: Genre.Vocaloid,
+        order_hard: 175,
         order_oni: 0
     },
     {
@@ -2705,17 +2705,6 @@ const songList = [
         [Difficulty.Oni]: 10,
         genre: Genre.Classical,
         order_hard: 23,
-        order_oni: 0
-    },
-    {
-        id: 223,
-        title: "チャーリー ダッシュ！",
-        [Difficulty.Easy]: 4,
-        [Difficulty.Normal]: 7,
-        [Difficulty.Hard]: 8,
-        [Difficulty.Oni]: 10,
-        genre: Genre.NamcoOriginal,
-        order_hard: 24,
         order_oni: 0
     },
     {
@@ -3786,17 +3775,6 @@ const songList = [
         [Difficulty.Oni]: 10,
         genre: Genre.Variety,
         order_hard: 120,
-        order_oni: 0
-    },
-    {
-        id: 320,
-        title: "クープランの墓",
-        [Difficulty.Easy]: 4,
-        [Difficulty.Normal]: 7,
-        [Difficulty.Hard]: 8,
-        [Difficulty.Oni]: 8,
-        genre: Genre.Classical,
-        order_hard: 121,
         order_oni: 0
     },
     {
@@ -6628,13 +6606,13 @@ const songList = [
     },
     {
         id: 572,
-        title: "月下美人　(달인)",
+        title: "月下美人 (달인)",
         [Difficulty.Easy]: 4,
         [Difficulty.Normal]: 6,
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
-        order_hard: 156,
+        order_hard: -1,
         order_oni: 14,
     },
     {
@@ -6645,7 +6623,7 @@ const songList = [
         [Difficulty.Hard]: 7,
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
-        order_hard: 156,
+        order_hard: -1,
         order_oni: 41,
     },
     {

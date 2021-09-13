@@ -9,11 +9,19 @@ import Main from './Main';
 import Background from './Background';
 
 function App() {
-  const filterSongs = ({ difficulty, ura, genre, level}) => {
-    return songList.map((song) => ({...song, collapse: true}))
+  const filterSongs = ({ difficulty, ura, genre, level }) => {
+    return songList.filter((song) => {
+      if (difficulty === Difficulty.Oni) {
+        return (!song.ura && song[difficulty] === level) 
+        || (ura && song.ura && song[Difficulty.Ura] === level);
+      } else {
+        return level === song[Difficulty.Hard] && song['order_hard'] !== -1;
+      }
+    })
     .filter((song) => {
-      return song[difficulty] === level && (genre === null || genre === song.genre);
-    }).sort((song1, song2) => {
+      return genre === "All" || genre === song.genre;
+    })
+    .sort((song1, song2) => {
       const order = difficulty === Difficulty.Oni ? 'order_oni' : 'order_hard';
       return song1[order] - song2[order];
     });
@@ -22,7 +30,7 @@ function App() {
   const [currentFilter, setCurrentFilter] = useState({
     difficulty: Difficulty.Oni,
     ura: true,
-    genre: null,
+    genre: "All",
     level: 10
   });
 
@@ -56,7 +64,7 @@ function App() {
   }
 
   const onChangeGenre = (e) => {
-    const newGenre = Genre.getGenre(e.target.value);
+    const newGenre = e.target.value;
     setCurrentFilter({
       ...currentFilter,
       genre: newGenre
@@ -68,17 +76,6 @@ function App() {
       ...currentFilter,
       level: +e.target.value
     });
-  }
-
-  const onClickSong = (id) => {
-    const newSongs = songs.map((song) => {
-      if (song.id === id) {
-        return {...song, collapse: !song.collapse};
-      } else {
-        return song;
-      }
-    });
-    setSongs(newSongs);
   }
 
   return (
@@ -94,7 +91,6 @@ function App() {
       />
       <Main
         songs={songs}
-        onClickSong={onClickSong}
         currentDifficulty={currentFilter.difficulty}
       />
     </>

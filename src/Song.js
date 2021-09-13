@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Difficulty from './Difficulty';
 import Genre from './Genre';
 import SongTip from './SongTip';
@@ -8,29 +8,34 @@ import NormalIcon from './icons/NormalIcon';
 import OniIcon from './icons/OniIcon';
 import UraIcon from './icons/UraIcon';
 
-export default function Song({ song, onClickSong, currentDifficulty }) {
-    let genreBackground = 'bg-';
+export default function Song({ song, currentDifficulty }) {
+    const [collapse, setCollapse] = useState(true);
+    const onClickSong = () => {
+        setCollapse(!collapse);
+    }
+
+    let genreBackground;
     switch (song.genre) {
         case Genre.Pop:
-            genreBackground += 'pop'
+            genreBackground = 'bg-pop'
             break;
         case Genre.Anime:
-            genreBackground += 'anime';
+            genreBackground = 'bg-anime';
             break;
         case Genre.Classical:
-            genreBackground += 'classical'
+            genreBackground = 'bg-classical'
             break;
         case Genre.GameMusic:
-            genreBackground += 'game-music';
+            genreBackground = 'bg-game-music';
             break;
         case Genre.NamcoOriginal:
-            genreBackground += 'original';
+            genreBackground = 'bg-original';
             break;
         case Genre.Variety:
-            genreBackground += 'variety'
+            genreBackground = 'bg-variety'
             break;
         case Genre.Vocaloid:
-            genreBackground += 'vocaloid';
+            genreBackground = 'bg-vocaloid';
             break;
         default:
             break;
@@ -38,22 +43,25 @@ export default function Song({ song, onClickSong, currentDifficulty }) {
 
     let className = 'relative z-10 w-9/12 mt-5 bg-song flex flex-col items-center justify-center rounded-md overflow-hidden';
     className += ' ' + genreBackground;
-    className += ' ' + ((song.collapse) ? 'h-10' : 'h-24');
+    className += ' ' + ((collapse) ? 'h-10' : 'h-24');
 
-    const classNameOfDifficulty = "bg-gray-50 px-3 py-1 rounded-sm flex flex-col items-center"
+    const classNameOfDifficulty = "bg-gray-50 w-10 py-1 rounded-sm flex flex-col items-center"
 
-    const classNameOfImg = "w-5 h-5";
-
-    
     const tips = (currentDifficulty === Difficulty.Oni) ? song.tipsOni : song.tipsHard;
     const hasTips = Boolean(tips);
-    console.log(tips);
+
+    let songTitleClassName = "px-4 font-bold align-middle text-center ";
+    if (song.ura) {
+        songTitleClassName += "text-purple-800";
+    } else {
+        songTitleClassName += "text-black";
+    }
 
     return (
-        <li className={className} onClick={() => onClickSong(song.id)}>
-            { !song.collapse && hasTips ? <SongTip tips={tips} /> : null}            
-            <span className="px-4 text-black font-bold align-middle text-center">{song.title}</span>
-            {!song.collapse ?
+        <li className={className} onClick={onClickSong}>
+            { !collapse && hasTips ? <SongTip tips={tips} /> : null}            
+            <span className={songTitleClassName}>{song.title}</span>
+            {!collapse ?
                 <div className="w-full mt-2">
                     <ul className="flex justify-around">
                         <li className={classNameOfDifficulty}>
