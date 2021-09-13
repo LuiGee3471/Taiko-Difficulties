@@ -88,7 +88,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.GameMusic,
         order_hard: 7,
-        order_oni: 0
+        order_oni: 142
     },
     {
         id: 8,
@@ -159,7 +159,7 @@ const songList = [
         [Difficulty.Oni]: 9,
         genre: Genre.NamcoOriginal,
         order_hard: 12,
-        order_oni: 0,
+        order_oni: 2,
         tipsHard: {
             fullCombo: true
         }
@@ -185,7 +185,7 @@ const songList = [
         [Difficulty.Ura]: 9,
         genre: Genre.Vocaloid,
         order_hard: 14,
-        order_oni: 0
+        order_oni: 183
     },
     {
         id: 15,
@@ -736,7 +736,7 @@ const songList = [
         [Difficulty.Ura]: 9,
         genre: Genre.NamcoOriginal,
         order_hard: 59,
-        order_oni: 0
+        order_oni: 152
     },
     {
         id: 60,
@@ -945,7 +945,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 76,
-        order_oni: 0
+        order_oni: 222
     },
     {
         id: 77,
@@ -1066,7 +1066,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.Classical,
         order_hard: 86,
-        order_oni: 0
+        order_oni: 174
     },
     {
         id: 87,
@@ -1100,7 +1100,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 89,
-        order_oni: 0
+        order_oni: 13３
     },
     {
         id: 90,
@@ -1147,7 +1147,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 93,
-        order_oni: 0
+        order_oni: 173
     },
     {
         id: 94,
@@ -1191,7 +1191,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 97,
-        order_oni: 0
+        order_oni: 169
     },
     {
         id: 98,
@@ -1202,7 +1202,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.Classical,
         order_hard: 98,
-        order_oni: 0
+        order_oni: 160
     },
     {
         id: 99,
@@ -1224,7 +1224,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 100,
-        order_oni: 0
+        order_oni: 176
     },
     {
         id: 101,
@@ -1246,7 +1246,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 102,
-        order_oni: 0
+        order_oni: 182
     },
     {
         id: 103,
@@ -1268,7 +1268,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 104,
-        order_oni: 0
+        order_oni: 158
     },
     {
         id: 105,
@@ -1475,7 +1475,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.GameMusic,
         order_hard: 121,
-        order_oni: 0
+        order_oni: 140
     },
     {
         id: 122,
@@ -1509,7 +1509,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.GameMusic,
         order_hard: 124,
-        order_oni: 0
+        order_oni: 205
     },
     {
         id: 125,
@@ -1695,7 +1695,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.GameMusic,
         order_hard: 139,
-        order_oni: 0
+        order_oni: 153
     },
     {
         id: 140,
@@ -1750,7 +1750,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.Classical,
         order_hard: 144,
-        order_oni: 0
+        order_oni: 138
     },
     {
         id: 145,
@@ -1866,7 +1866,7 @@ const songList = [
         [Difficulty.Ura]: 9,
         genre: Genre.NamcoOriginal,
         order_hard: 153,
-        order_oni: 0
+        order_oni: 151,
     },
     {
         id: 154,
@@ -1891,7 +1891,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 155,
-        order_oni: 0
+        order_oni: 156
     },
     {
         id: 156,
@@ -1976,7 +1976,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.GameMusic,
         order_hard: 162,
-        order_oni: 0
+        order_oni: 148
     },
     {
         id: 163,
@@ -2043,7 +2043,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 168,
-        order_oni: 0
+        order_oni: 139
     },
     {
         id: 169,
@@ -2182,7 +2182,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 180,
-        order_oni: 0
+        order_oni: 216
     },
     {
         id: 181,
@@ -2208,7 +2208,7 @@ const songList = [
         [Difficulty.Ura]: 9,
         genre: Genre.NamcoOriginal,
         order_hard: 182,
-        order_oni: 0
+        order_oni: 211
     },
     {
         id: 183,
@@ -2219,7 +2219,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.Pop,
         order_hard: 183,
-        order_oni: 0
+        order_oni: 235
     },
     {
         id: 184,
@@ -2293,7 +2293,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.NamcoOriginal,
         order_hard: 189,
-        order_oni: 0
+        order_oni: 232
     },
     {
         id: 190,
@@ -2338,7 +2338,7 @@ const songList = [
         [Difficulty.Ura]: 9,
         genre: Genre.NamcoOriginal,
         order_hard: 193,
-        order_oni: 0,
+        order_oni: 171,
         tipsHard: {
             difference: true,
             firstPlay: true,
@@ -2728,7 +2728,7 @@ const songList = [
         [Difficulty.Ura]: 9,
         genre: Genre.GameMusic,
         order_hard: 25,
-        order_oni: 0
+        order_oni: 149,
     },
     {
         id: 225,
@@ -5703,7 +5703,8 @@ const songList = [
         [Difficulty.Ura]: 7,
         genre: Genre.GameMusic,
         order_hard: -1,
-        order_oni: 75
+        order_oni: 75,
+        ura: true,
     },
     {
         id: 491,
@@ -6588,7 +6589,8 @@ const songList = [
         [Difficulty.Ura]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: -1,
-        order_oni: 35
+        order_oni: 35,
+        ura: true
     },
     {
         id: 569,
@@ -7349,7 +7351,1417 @@ const songList = [
         genre: Genre.GameMusic,
         order_hard: -1,
         order_oni: 130
-    }
+    },
+    {
+        id: 636,
+        title: "コナモノ☆",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 131
+    },{
+        id: 637,
+        title: "魔法の喫茶店",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 133
+    },
+    {
+        id: 638,
+        title: "キミと響くハーモニー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 6,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 134,
+        ura: true,
+    },
+    {
+        id: 639,
+        title: "黒船来航",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 135
+    },
+    {
+        id: 640,
+        title: "風雲志士 (달인)",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 7,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 136
+    },
+    {
+        id: 641,
+        title: "ねがいごと☆ぱずる",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 137
+    },
+    {
+        id: 642,
+        title: "夢と希望",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 141
+    },
+    {
+        id: 643,
+        title: "星のカービィメドレー",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 142
+    },
+    {
+        id: 644,
+        title: "風雲志士 (현인)",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 7,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 144
+    },
+    {
+        id: 645,
+        title: "残酷な天使のテーゼ",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 145,
+        ura: true
+    },
+    {
+        id: 646,
+        title: "ドラマツルギー",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 2,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 5,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 146,
+        ura: true
+    },
+    {   id: 647,
+        title: "乙女解剖",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 6,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 147,
+        ura: true,
+    },
+    {
+        id: 648,
+        title: "ヒバナ",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 10,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 150
+    },{
+        id: 649,
+        title: "和蘭撫子",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 154
+    },
+    {
+        id: 650,
+        title: "らんぶる乱舞",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 7,
+        [Difficulty.Hard]: 8,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 155,
+    },
+    {
+        id: 651,
+        title: "零の交響曲",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 10,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 156
+    },
+    {
+        id: 652,
+        title: "ドン・エンガスの笛吹き",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 7,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 159
+    },{
+        id: 653,
+        title: "トータル・エクリプス 2035",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 161
+    },{
+        id: 654,
+        title: "迅風丸",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 162
+    },{
+        id: 655,
+        title: "Amanda",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 163
+    },
+    {
+        id: 656,
+        title: "おしえて くまとも",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 164
+    },
+    {
+        id: 657,
+        title: "shiny smile",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 7,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 165,
+    },
+    {
+        id: 658,
+        title: "アサルト BGM1",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 166
+    },
+    {
+        id: 659,
+        title: "さくらんぼ",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 167
+    },
+    {
+        id: 660,
+        title: "亡き王女のためのパヴァーヌ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 6,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Classical,
+        order_hard: -1,
+        order_oni: 168,
+        ura: true,
+    },
+    {
+        id: 661,
+        title: "流浪の琥珀姫",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 170
+    },
+    {
+        id: 662,
+        title: "GOIN'!!!",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 6,
+        [Difficulty.Ura]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 172,
+        ura: true,
+    },
+    {
+        id: 663,
+        title: "マジで…！？",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 175
+    },
+    {
+        id: 664,
+        title: "Thank You!",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 177
+    },
+    {
+        id: 665,
+        title: "THE IDOLM@STER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 178
+    },
+    {
+        id: 666,
+        title: "見たこともない景色",
+        [Difficulty.Easy]: 1,
+        [Difficulty.Normal]: 2,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 6,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 179,
+        ura: true,
+    },
+    {
+        id: 667,
+        title: "蓄勢～GEAR UP～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 180,
+        ura: true,
+    },
+    {
+        id: 668,
+        title: "きみのあかり",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 5,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 181,
+        ura: true,
+    },
+    {
+        id: 669,
+        title: "ハッピーウェディング前ソング",
+        [Difficulty.Easy]: 1,
+        [Difficulty.Normal]: 2,
+        [Difficulty.Hard]: 3,
+        [Difficulty.Oni]: 6,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 184,
+        ura: true,
+    },
+    {
+        id: 670,
+        title: "百花繚乱",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 185
+    },
+    {
+        id: 671,
+        title: "季曲～Seasons of Asia～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 186,
+        ura: true,
+    },
+    {
+        id: 672,
+        title: "泡沫、哀のまほろば",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 187
+    },
+    {
+        id: 673,
+        title: "Paradisus-Paradoxum",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 188
+    },
+    {
+        id: 674,
+        title: "曙光～Dawn～",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 7,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: 173,
+        order_oni: 189,
+        ura: true,
+    },
+    {
+        id: 675,
+        title: "RAGE v.self",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 190
+    },
+    {
+        id: 676,
+        title: "本能寺の変",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 191
+    },
+    {
+        id: 677,
+        title: "RAINMAKER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 192
+    },
+    {
+        id: 678,
+        title: "二人の結晶-INNOCENCE-",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 7,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 193,
+    },
+    {
+        id: 679,
+        title: "バトル－電光石火－",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 194
+    },
+    {
+        id: 680,
+        title: "いーあるふぁんくらぶ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 195
+    },
+    {
+        id: 681,
+        title: "ライコタイコディスコ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 196
+    },
+    {
+        id: 682,
+        title: "ほうかご☆マジシャン",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 197
+    },
+    {
+        id: 683,
+        title: "シュガーソングとビターステップ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 198
+    },{
+        id: 684,
+        title: "Bad Apple!! feat.nomico",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 199
+    },
+    {
+        id: 685,
+        title: "輝きを求めて",
+        [Difficulty.Easy]: 5,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 200
+    },
+    {
+        id: 686,
+        title: "シャルル",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 201
+    },
+    {
+        id: 687,
+        title: "にんじゃりばんばん",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 202
+    },
+    {
+        id: 688,
+        title: "綻放～Blooming～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 203,
+        ura: true,
+    },
+    {
+        id: 689,
+        title: "Dragon Night",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 204
+    },
+    {
+        id: 690,
+        title: "ゴーストルール",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 7,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 9,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 207
+    },
+    {
+        id: 691,
+        title: "ヒミツキチューバー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 208
+    },
+    {
+        id: 692,
+        title: "流星",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 209
+    },
+    {
+        id: 694,
+        title: "こ・き・く・くる・くる・くれ・こ！",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 210
+    },
+    {
+        id: 695,
+        title: "色は匂へど散りぬるを",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 212
+    },
+    {
+        id: 696,
+        title: "光る闇",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 213
+    },
+    {
+        id: 697,
+        title: "SMOKY THRILL",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 214
+    },
+    {
+        id: 698,
+        title: "Altale",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 10,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 215
+    },
+    {
+        id: 699,
+        title: "愛にできることはまだあるかい",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 2,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 5,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 216,
+        ura: true,
+    },
+    {
+        id: 700,
+        title: "Synchronicity",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 217
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 702,
+        title: "ゆーがらお友達",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 219
+    },
+    {
+        id: 703,
+        title: "THE IDOLM@STER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 220,
+        ura: true
+    },
+    {
+        id: 704,
+        title: "PaPaPa Love",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 221
+    },
+    {
+        id: 705,
+        title: "「ポケットモンスター サン・ムーン」メドレー",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.GameMusic,
+        order_hard: -1,
+        order_oni: 223
+    },
+    {
+        id: 706,
+        title: "さよならエレジー",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 225
+    },
+    {
+        id: 707,
+        title: "蛻変～transformation～",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 7,
+        [Difficulty.Ura]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 226,
+        ura: true,
+    },
+    {
+        id: 708,
+        title: "零の夜想曲",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 227
+    },
+    {
+        id: 709,
+        title: "私以外私じゃないの",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 228
+    },
+    {
+        id: 710,
+        title: "I my moko",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 229
+    },
+    {
+        id: 711,
+        title: "太陽系デスコ",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 230
+    },
+    {
+        id: 712,
+        title: "月に叢雲華に風",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Variety,
+        order_hard: -1,
+        order_oni: 231
+    },
+    {
+        id: 713,
+        title: "めざせポケモンマスター -20th Anniversary-",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 8,
+        genre: Genre.Anime,
+        order_hard: -1,
+        order_oni: 233,
+    },
+    {
+        id: 714,
+        title: "世界はあなたに笑いかけている",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 4,
+        [Difficulty.Hard]: 5,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 234
+    },
+    {
+        id: 715,
+        title: "PERFECT HUMAN",
+        [Difficulty.Easy]: 2,
+        [Difficulty.Normal]: 3,
+        [Difficulty.Hard]: 4,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 236
+    },
+    {
+        id: 716,
+        title: "君のプラネット",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 237
+    },
+    {
+        id: 717,
+        title: "冬竜 ～Toryu～",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 7,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: 88,
+        order_oni: 1,
+        ura: true,
+    },
+    {
+        id: 718,
+        title: "闇の魔法少女",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 3,
+    },
+    {
+        id: 719,
+        title: "脳漿炸裂ガール",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 9,
+        genre: Genre.Vocaloid,
+        order_hard: -1,
+        order_oni: 4,
+        ura: true,
+    },
+    {
+        id: 720,
+        title: "Phantom Rider",
+        [Difficulty.Easy]: 4,
+        [Difficulty.Normal]: 6,
+        [Difficulty.Hard]: 7,
+        [Difficulty.Oni]: 8,
+        [Difficulty.Ura]: 9,
+        genre: Genre.NamcoOriginal,
+        order_hard: -1,
+        order_oni: 1,
+        tipsHard: {
+            difference: true,
+            firstPlay: true,
+        },
+        ura: true
+    },
+    {
+        id: 721,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },{
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
+    {
+        id: 701,
+        title: "LOSER",
+        [Difficulty.Easy]: 3,
+        [Difficulty.Normal]: 5,
+        [Difficulty.Hard]: 6,
+        [Difficulty.Oni]: 8,
+        genre: Genre.Pop,
+        order_hard: -1,
+        order_oni: 218
+    },
 ];
 
 export default songList;
