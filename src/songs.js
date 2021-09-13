@@ -1100,7 +1100,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         genre: Genre.NamcoOriginal,
         order_hard: 89,
-        order_oni: 13３
+        order_oni: 133
     },
     {
         id: 90,
@@ -1670,7 +1670,7 @@ const songList = [
         [Difficulty.Ura]: 10,
         genre: Genre.NamcoOriginal,
         order_hard: 137,
-        order_oni: 0
+        order_oni: 6
     },
     {
         id: 138,
@@ -8255,7 +8255,7 @@ const songList = [
         [Difficulty.Oni]: 8,
         [Difficulty.Ura]: 9,
         genre: Genre.NamcoOriginal,
-        order_hard: 88,
+        order_hard: -1,
         order_oni: 1,
         ura: true,
     },
