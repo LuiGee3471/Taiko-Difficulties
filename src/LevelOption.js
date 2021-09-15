@@ -6,7 +6,7 @@ export default function LevelOption({
     currentLevel,
     onChangeLevel 
 }) {
-    const levels = currentDifficulty === Difficulty.Oni ? [10, 9, 8, 7, 6, 5, 4] : [8, 7];
+    const levels = currentDifficulty === Difficulty.Oni ? [8, 7, 6, 5, 4] : [8, 7];
 
     return (
         <label className="flex">

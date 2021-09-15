@@ -12,8 +12,9 @@ function App() {
   const filterSongs = ({ difficulty, ura, genre, level }) => {
     return songList.filter((song) => {
       if (difficulty === Difficulty.Oni) {
-        return (!song.ura && song[difficulty] === level) 
-        || (ura && song.ura && song[Difficulty.Ura] === level);
+        return ((!song.ura && song[difficulty] === level) 
+        || (ura && song.ura && song[Difficulty.Ura] === level))
+        && song['order_oni'] > 0;
       } else {
         return level === song[Difficulty.Hard] && song['order_hard'] > 0;
       }
@@ -31,7 +32,7 @@ function App() {
     difficulty: Difficulty.Oni,
     ura: true,
     genre: "All",
-    level: 10
+    level: 8
   });
 
   const [ songs, setSongs ] = useState(filterSongs(currentFilter));
@@ -42,7 +43,7 @@ function App() {
   const onChangeDifficulty = (e) => {
     const value = e.target.value;
     let newDifficulty = null;
-    let currentLevel = 10;
+    let currentLevel = 8;
     if (value === '귀신') {
       newDifficulty = Difficulty.Oni;
     } else {
