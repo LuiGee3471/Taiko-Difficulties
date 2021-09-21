@@ -7,6 +7,7 @@ import Genre from './Genre';
 import songList from './songs';
 import Main from './Main';
 import Background from './Background';
+import Footer from './Footer';
 
 function App() {
   const filterSongs = ({ difficulty, ura, genre, level }) => {
@@ -94,6 +95,7 @@ function App() {
         songs={songs}
         currentDifficulty={currentFilter.difficulty}
       />
+      <Footer />
     </>
   );
 }
