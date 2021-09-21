@@ -3,10 +3,10 @@ import React from 'react';
 export default function MainHeader({ onClickMenu }) {
     return (
         <div className="h-12 flex justify-between px-4 items-center">
-            <span className="h-full w-full flex items-center">
+            <h1 className="h-full w-full flex items-center">
                 <img src="/taiko-logo.png" alt="태고의 달인" className="h-8 mr-2" />
                 <span className="text-white">난이도 서열표</span>
-            </span>
+            </h1>
 
             <button onClick={onClickMenu}>
                 <svg className="fill-current text-white"
