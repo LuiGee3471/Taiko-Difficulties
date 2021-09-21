@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
+import Header from './header/Header';
 import { useEffect, useState } from 'react';
-import Difficulty from './Difficulty';
-import Genre from './Genre';
+import Difficulty from './constants/Difficulty';
 import songList from './songs';
-import Main from './Main';
-import Background from './Background';
-import Footer from './Footer';
+import Main from './main/Main';
+import Footer from './footer/Footer';
 
 function App() {
   const filterSongs = ({ difficulty, ura, genre, level }) => {

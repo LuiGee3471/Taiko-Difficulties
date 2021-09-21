@@ -1,5 +1,5 @@
-import Difficulty from './Difficulty';
-import Genre from './Genre';
+import Difficulty from './constants/Difficulty';
+import Genre from './constants/Genre';
 
 const songList = [
     {

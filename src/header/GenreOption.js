@@ -1,5 +1,5 @@
 import React from 'react';
-import Genre from './Genre';
+import Genre from '../constants/Genre';
 
 export default function GenreOption({ onChangeGenre }) {
     return (

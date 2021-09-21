@@ -1,5 +1,5 @@
 import React from 'react';
-import Difficulty from './Difficulty';
+import Difficulty from '../constants/Difficulty';
 
 export default function DifficultyOption({ 
     currentDifficulty,

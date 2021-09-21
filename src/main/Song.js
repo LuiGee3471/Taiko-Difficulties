@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Difficulty from './Difficulty';
-import Genre from './Genre';
+import Difficulty from '../constants/Difficulty';
+import Genre from '../constants/Genre';
 import SongTip from './SongTip';
-import EasyIcon from './icons/EasyIcon';
-import HardIcon from './icons/HardIcon';
-import NormalIcon from './icons/NormalIcon';
-import OniIcon from './icons/OniIcon';
-import UraIcon from './icons/UraIcon';
+import EasyIcon from '../icons/EasyIcon';
+import HardIcon from '../icons/HardIcon';
+import NormalIcon from '../icons/NormalIcon';
+import OniIcon from '../icons/OniIcon';
+import UraIcon from '../icons/UraIcon';
 
 export default function Song({ song, currentDifficulty }) {
     const [collapse, setCollapse] = useState(true);
