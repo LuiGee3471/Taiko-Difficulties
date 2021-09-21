@@ -93,4 +93,4 @@ sketch
 
 # Local Netlify folder
 .netlify
-build/
+build/*
