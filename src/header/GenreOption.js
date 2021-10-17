@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Genre from '../constants/Genre';
+import FilterContext from '../context/FilterContext';
 
-export default function GenreOption({ onChangeGenre }) {
+export default function GenreOption() {
+    const { currentFilter, setCurrentFilter } = useContext(FilterContext);
+    const onChangeGenre = (e) => {
+        const newGenre = e.target.value;
+        setCurrentFilter({
+            ...currentFilter,
+            genre: newGenre
+        });
+    }
+
     return (
         <label className="flex">
             <span className="w-20 text-sm self-center">장르</span>

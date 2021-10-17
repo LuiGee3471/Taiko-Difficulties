@@ -5,27 +5,9 @@ import Difficulty from './constants/Difficulty';
 import songList from './songs';
 import Main from './main/Main';
 import Footer from './footer/Footer';
+import FilterContext from './context/FilterContext';
 
 function App() {
-  const filterSongs = ({ difficulty, ura, genre, level }) => {
-    return songList.filter((song) => {
-      if (difficulty === Difficulty.Oni) {
-        return ((!song.ura && song[difficulty] === level) 
-        || (ura && song.ura && song[Difficulty.Ura] === level))
-        && song['order_oni'] > 0;
-      } else {
-        return level === song[Difficulty.Hard] && song['order_hard'] > 0;
-      }
-    })
-    .filter((song) => {
-      return genre === "All" || genre === song.genre;
-    })
-    .sort((song1, song2) => {
-      const order = difficulty === Difficulty.Oni ? 'order_oni' : 'order_hard';
-      return song1[order] - song2[order];
-    });
-  }
-
   const [currentFilter, setCurrentFilter] = useState({
     difficulty: Difficulty.Oni,
     ura: true,
@@ -33,65 +15,36 @@ function App() {
     level: 8
   });
 
-  const [ songs, setSongs ] = useState(filterSongs(currentFilter));
+  const filterSongs = ({ difficulty, ura, genre, level }) => {
+    return songList.filter((song) => {
+      if (difficulty === Difficulty.Oni) {
+        return ((!song.ura && song[difficulty] === level)
+          || (ura && song.ura && song[Difficulty.Ura] === level))
+          && song['order_oni'] > 0;
+      } else {
+        return level === song[Difficulty.Hard] && song['order_hard'] > 0;
+      }
+    })
+      .filter((song) => {
+        return genre === "All" || genre === song.genre;
+      })
+      .sort((song1, song2) => {
+        const order = difficulty === Difficulty.Oni ? 'order_oni' : 'order_hard';
+        return song1[order] - song2[order];
+      });
+  }
+
+  const [songs, setSongs] = useState(filterSongs(currentFilter));
   useEffect(() => {
     setSongs(filterSongs(currentFilter));
   }, [currentFilter]);
 
-  const onChangeDifficulty = (e) => {
-    const value = e.target.value;
-    let newDifficulty = null;
-    let currentLevel = 8;
-    if (value === '귀신') {
-      newDifficulty = Difficulty.Oni;
-    } else {
-      newDifficulty = Difficulty.Hard;
-      currentLevel = 8;
-    }
-    setCurrentFilter({
-      ...currentFilter,
-      difficulty: newDifficulty,
-      level: currentLevel
-    });
-  }
-
-  const onCheckUra = (e) => {
-    setCurrentFilter({
-      ...currentFilter,
-      ura: e.target.checked
-    });
-  }
-
-  const onChangeGenre = (e) => {
-    const newGenre = e.target.value;
-    setCurrentFilter({
-      ...currentFilter,
-      genre: newGenre
-    });
-  }
-
-  const onChangeLevel = (e) => {
-    setCurrentFilter({
-      ...currentFilter,
-      level: +e.target.value
-    });
-  }
-
   return (
-    <>      
-      <Header
-        currentDifficulty={currentFilter.difficulty}
-        isListingUra={currentFilter.ura}
-        currentLevel={currentFilter.level}
-        onChangeDifficulty={onChangeDifficulty}
-        onCheckUra={onCheckUra}
-        onChangeGenre={onChangeGenre}
-        onChangeLevel={onChangeLevel}
-      />
-      <Main
-        songs={songs}
-        currentDifficulty={currentFilter.difficulty}
-      />
+    <>
+      <FilterContext.Provider value={{ currentFilter, setCurrentFilter }}>
+        <Header />
+        <Main songs={songs} />
+      </FilterContext.Provider>
       <Footer />
     </>
   );

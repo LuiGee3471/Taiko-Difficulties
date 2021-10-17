@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Difficulty from '../constants/Difficulty';
 import Genre from '../constants/Genre';
 import SongTip from './SongTip';
@@ -7,8 +7,10 @@ import HardIcon from '../icons/HardIcon';
 import NormalIcon from '../icons/NormalIcon';
 import OniIcon from '../icons/OniIcon';
 import UraIcon from '../icons/UraIcon';
+import FilterContext from '../context/FilterContext';
 
-export default function Song({ song, currentDifficulty }) {
+export default function Song({ song }) {
+    const { currentFilter } = useContext(FilterContext);
     const [collapse, setCollapse] = useState(true);
     const onClickSong = () => {
         setCollapse(!collapse);
@@ -47,7 +49,7 @@ export default function Song({ song, currentDifficulty }) {
 
     const classNameOfDifficulty = "bg-gray-50 w-10 py-1 rounded-sm flex flex-col items-center"
 
-    const tips = (currentDifficulty === Difficulty.Oni) ? song.tipsOni : song.tipsHard;
+    const tips = (currentFilter.difficulty === Difficulty.Oni) ? song.tipsOni : song.tipsHard;
     const hasTips = Boolean(tips);
 
     let songTitleClassName = "px-4 font-bold align-middle text-center ";
